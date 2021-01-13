@@ -1,0 +1,118 @@
+[
+  {
+      "id": 0,
+      "name": "Restaurants",
+      "active": false,
+      "features": [
+        {
+          "id": 0,
+          "name": "Cafetaria Informatika",
+          "type": "marker",
+          "coords": [-7.2800122, 112.7970102]
+        },
+        {
+          "id": 1,
+          "name": "Teras Rumah Cafe",
+          "type": "marker",
+          "coords": [-7.2737522, 112.7954887]
+        },
+        {
+          "id": 2,
+          "name": "Sate Ayam Mulyosari",
+          "type": "marker",
+          "coords": [-7.2687922, 112.7966507]
+        },
+        {
+          "id": 3,
+          "name": "McDonald's Mulyosari",
+          "type": "marker",
+          "coords": [-7.2667319, 112.7963850]
+        },
+        {
+          "id": 4,
+          "name": "Starbucks",
+          "type": "marker",
+          "coords": [-7.2760160, 112.7808219]
+        },
+        {
+          "id": 5,
+          "name": "KFC Mulyosari",
+          "type": "marker",
+          "coords": [-7.2663663, 112.7963246]
+        },
+        {
+          "id": 6,
+          "name": "Pizza Hut Mulyosari",
+          "type": "marker",
+          "coords": [-7.2660141, 112.7962171]
+        },
+        {
+          "id": 7,
+          "name": "Sego Njamoer",
+          "type": "marker",
+          "coords": [-7.2820499, 112.7892322]
+        }
+      ]
+  },
+  {
+    "id": 1,
+    "name": "Recreation",
+    "active": false,
+    "features": [
+      {
+          "coords": [
+              -7,
+              112
+          ],
+          "id": 0,
+          "name": "Tombo Luwe",
+          "type": "marker"
+      },
+      {
+          "coords": [
+              -7.2838275,
+              112.7941042
+          ],
+          "id": 1,
+          "name": "Kantin Pusat ITS",
+          "type": "marker"
+      },
+      {
+          "coords": [
+              -7.2667464,
+              112.7963787
+          ],
+          "id": 2,
+          "name": "McDonald's Mulyosari",
+          "type": "marker"
+      },
+      {
+          "coords": [
+              -7.2663739,
+              112.7963251
+          ],
+          "id": 3,
+          "name": "KFC Mulyosari",
+          "type": "marker"
+      },
+      {
+          "coords": [
+              -7.266028,
+              112.7962178
+          ],
+          "id": 4,
+          "name": "Pizza Hut Mulyosari",
+          "type": "marker"
+      },
+      {
+          "coords": [
+              -7.2654426,
+              112.7502984
+          ],
+          "id": 5,
+          "name": "Monumen Kapal Selam",
+          "type": "marker"
+      }
+    ]
+  }
+]

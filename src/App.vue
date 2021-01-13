@@ -1,18 +1,64 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Map/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Map from './components/Map.vue'
+// import data from './assets/data2.json'
+// import axios from 'axios';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Map
+  },
+  data () {
+    return {
+      // layers: [
+      //           {
+      //               id: 0,
+      //               name: 'Restaurants',
+      //               active: false,
+      //               features: []
+      //           },
+      //           {
+      //               id: 1,
+      //               name: 'Hotels',
+      //               active: false,
+      //               features: []
+      //           },
+      //           {
+      //               id: 2,
+      //               name: 'Recreations',
+      //               active: false,
+      //               features: []
+      //           },
+      //           {
+      //               id: 3,
+      //               name: 'Malls',
+      //               active: false,
+      //               features: []
+      //           }
+      //       ]
+    }
+  },
+  // methods: {
+  //   getMalls () {
+  //       fetch('http://127.0.0.1:8000/api/place?kind=Malls')
+  //       // .then((response) => {
+  //       //     const { places } = response.data.content
+  //       //     this.layers[3].features = places
+  //       //     console.log(response.data)
+  //       // })
+  //       .then(response => response.json())
+  //       .then(data => (this.layers[3].features = data.content.places))
+  //   }
+  // },
+  // mounted () {
+  //   this.getMalls();
+  // }
 }
 </script>
 
@@ -23,6 +69,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
